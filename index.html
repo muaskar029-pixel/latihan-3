@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<head>
+    <title>Latihan ke-3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Welcome to My Website</h1>
+    <p>ini adalah website latihan ke-3.</p>
+
+    <div class="tabel-produk">
+        <thead >
+            <table border="1" >
+            <tr>
+                <th style="background-color: #15125a; color: white;">Nama Produk</th>
+                <th style="background-color: #15125a; color: white;">Harga</th>
+                <th style="background-color: #15125a; color: white;">Stok</th>
+            </tr>
+            <tr>
+                <td>Wortel</td>
+                <td>Pepaya</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>sayur</td>
+                <td>Pepaya</td>
+                <td>10</td>
+            </tr>
+        </thead>
+    </div> 
+
+    <div> 
+        <ol type="I">
+            <li>daging</li>
+            <li>buah</li>
+            <li>sayur</li>
+        </ol>
+
+        <ol type="A">
+            <li>daging</li>
+            <li>buah</li>
+            <li>sayur</li>
+        </ol>
+
+        <ul style="list-style-type:disc;">
+            <li>Wortel</li>
+            <li>Pepaya</li>
+            <li>sayur</li>
+        </ul>
+
+        <ul style="list-style-type:square;">
+            <li>Wortel</li>
+            <li>Pepaya</li>
+            <li>sayur</li>
+        </ul>
+
+        
+    </div>
+    <p> 
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama">
+    </p>
+
+    <p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+    </p>
+
+    <div>
+    <form class="gender">
+        <p style="border: 1px solid black; padding: 10px; width: 200px;">
+            <label for="pria">Pria</label>
+            <input type="radio" id="pria" name="gender" value="pria">
+        </p>
+        <p>
+            <label for="wanita">Wanita</label>
+            <input type="radio" id="wanita" name="gender" value="wanita">
+        </p>
+    </form>
+    </div>
+    <div class="form-agama">
+        <form>
+            <label for="agama">Agama:</label>
+            <select id="agama" name="agama">
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="hindu">Hindu</option>
+                <option value="budha">Budha</option>
+            </select>
+        </form>
+    </div>
+    <div class="form-checkbox">
+        <form>
+            <label for="checkbox1">Nobar bareng bola</label>
+            <input type="checkbox" id="checkbox1" name="checkbox1" value="value1">
+            <label for="checkbox2">Ngabuburit</label>
+            <input type="checkbox" id="checkbox2" name="checkbox2" value="value2">
+            <label for="checkbox3">Jogging pagi di Gintung</label>
+            <input type="checkbox" id="checkbox3" name="checkbox3" value="value3">
+        </form>
+    </div>
+    <div class="form-textarea">
+        <form>
+            <label for="pesan">Visi Misi</label>
+            <textarea id="pesan" name="pesan" rows="4" cols="50"></textarea>
+        </form>
+    </div>
+    <div class="form-submit">
+        <form>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div class="produk-gambar">
+        <img src="images.jpeg" alt="Produk" width="300" height="200">
+    </div>
+    <div class="video-youtube">
+        <iframe width="400" height="225" src="https://www.youtube.com/embed/Ncy1XAI8KFI?si=i5px8yftJVnCiPmG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="lokasi-kami">
+        <p>Lokasi Kami disini</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15862.5436322116!2d106.7588497!3d-6.3114694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ef00478a5be3%3A0x8628af8f919edb12!2sMie%20Gacoan%20Tangsel%20-%20Juanda%20Ciputat!5e0!3m2!1sid!2sid!4v1790670340316!5m2!1sid!2sid" width="400" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+</body>
